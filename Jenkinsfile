@@ -11,7 +11,7 @@ pipeline {
         stage('Run Python Script') {
             steps {
                 echo 'Running test.py ...'
-                sh 'python test.py'
+                bat 'python test.py'
             }
         }
     }
